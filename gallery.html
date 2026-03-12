@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="旅行照片画廊 - 心之所向">
+    <title>照片画廊 - 心之所向</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">WANDERLUST</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="destinations.html">目的地</a></li>
+                    <li><a href="gallery.html">画廊</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li><a href="contact.html">联系</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="nav-btn" id="search-toggle" title="搜索">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="nav-btn" id="theme-toggle" title="切换主题">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>视觉记忆</h1>
+            <p>用镜头捕捉世界，定格每一个不平凡的瞬间</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Masonry Gallery -->
+        <div class="masonry-grid" id="masonry-gallery">
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="旅行照片1">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80" alt="旅行照片2">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" alt="旅行照片3">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=80" alt="旅行照片4">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="旅行照片5">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=600&q=80" alt="旅行照片6">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=600&q=80" alt="旅行照片7">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80" alt="旅行照片8">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80" alt="旅行照片9">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80" alt="旅行照片10">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="旅行照片11">
+            </div>
+            <div class="masonry-item">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="旅行照片12">
+            </div>
+        </div>
+    </main>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="search-modal">
+        <div class="search-modal-content">
+            <input type="text" class="search-input" id="search-input" placeholder="搜索文章、目的地...">
+            <div class="search-results" id="search-results"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Wanderlust Travel Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
