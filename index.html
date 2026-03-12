@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""Wander & Palette" 是一个源于对探索的热爱和艺术表达之喜悦的旅行博客。在这里，每一次旅程都透过创意的镜头来呈现——世界成为画布，每一个目的地都为故事增添新的色彩。">
+    <title>Wander & Palette</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Wander & Palett</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="destinations.html">目的地</a></li>
+                    <li><a href="gallery.html">画廊</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li><a href="contact.html">联系</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="nav-btn" id="search-toggle" title="搜索">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="nav-btn" id="theme-toggle" title="切换主题">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>记录每一次未知的旅程</h1>
+            <p>探索世界，发现自我，分享每一段精彩的旅行记忆</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Latest Articles -->
+        <section class="container">
+            <h2 style="margin-top: 3rem; margin-bottom: 2rem;">最新游记</h2>
+            <div class="grid" id="articles-grid">
+                <!-- Article 1 -->
+                <article class="card">
+                    <a href="post/article.html">
+                        <div class="card-image">
+                            <img src="images/easterneurope-trip/1trip/imagie65.jpg" alt="欧洲">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">东欧</span>
+                            <h3 class="card-title">匈牙利&奥地利&捷克</h3>
+                            <p class="card-desc">四个女仔一个流浪汉十五日三国八城东欧自由行</p>
+                            <div class="card-meta">
+                                <span>2024-03-10</span>
+                                <span><i class="far fa-clock"></i> 5 min</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="card">
+                    <a href="post/article.html">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80" alt="意大利&西班牙">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">意大利&西班牙</span>
+                            <h3 class="card-title">罗马-巴塞隆拿-马德里</h3>
+                            <p class="card-desc">四个女仔一个墟的十八日两国游</p>
+                            <div class="card-meta">
+                                <span>2024-02-25</span>
+                                <span><i class="far fa-clock"></i> 8 min</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="card">
+                    <a href="post/article.html">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80" alt="冰岛&挪威">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">冰岛&挪威</span>
+                            <h3 class="card-title">极光*雪</h3>
+                            <p class="card-desc">四个女仔北欧十五日两国自由行</p>
+                            <div class="card-meta">
+                                <span>2024-02-15</span>
+                                <span><i class="far fa-clock"></i> 6 min</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="card">
+                    <a href="post/article.html">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=800&q=80" alt="意大利南部">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">意大利南部</span>
+                            <h3 class="card-title">米兰-巴里</h3>
+                            <p class="card-desc">四个女仔疫境下的囧途十日游</p>
+                            <div class="card-meta">
+                                <span>2024-02-05</span>
+                                <span><i class="far fa-clock"></i> 7 min</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="card">
+                    <a href="post/article.html">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80" alt="北欧三国">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">北欧三国</span>
+                            <h3 class="card-title">丹麦-斯德哥尔摩-特罗姆瑟</h3>
+                            <p class="card-desc">再战北极圈赴十年之约-北欧三国五个女仔13日半自驾自由行</p>
+                            <div class="card-meta">
+                                <span>2024-01-28</span>
+                                <span><i class="far fa-clock"></i> 9 min</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="card">
+                    <a href="post/article.html">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" alt="冰岛">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-tag">冰岛 · 雷克雅未克</span>
+                            <h3 class="card-title">冰岛的极光与冰川</h3>
+                            <p class="card-desc">在北极光的照耀下，冰川熠熠生辉，这是地球上最神奇的地方。</p>
+                            <div class="card-meta">
+                                <span>2024-01-15</span>
+                                <span><i class="far fa-clock"></i> 10 min</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Featured Destinations -->
+        <section class="container" style="margin: 4rem 0;">
+            <h2 style="margin-bottom: 2rem;">推荐目的地</h2>
+            <div class="grid">
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80" alt="希腊">
+                    <div class="destination-overlay">
+                        <h3>希腊</h3>
+                        <p>10 篇游记</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80" alt="冰岛">
+                    <div class="destination-overlay">
+                        <h3>冰岛</h3>
+                        <p>5 篇游记</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" alt="新西兰">
+                    <div class="destination-overlay">
+                        <h3>新西兰</h3>
+                        <p>8 篇游记</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="search-modal">
+        <div class="search-modal-content">
+            <input type="text" class="search-input" id="search-input" placeholder="搜索文章、目的地...">
+            <div class="search-results" id="search-results"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Wanderlust Travel Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
